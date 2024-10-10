@@ -1,0 +1,83 @@
+{
+  "logements": [
+    {
+      "nom": "Villa du Rougadou",
+      "adresse": "327 montée du Rougadou",
+      "ville": "Noves",
+      "code_postal": 13550,
+      "pays": "France",
+      "type": "Villa",
+      "personnes": 8,
+      "m2": 230,
+      "equipements": [
+        "Vaisselle",
+        "Lave-linge",
+        "Four à micro-ondes",
+        "Four",
+        "Grille-pain",
+        "Bouilloire",
+        "Congélateur",
+        "Frigo",
+        " Cuisinière",
+        "Cafetière Nespresso",
+        "Aspirateur",
+        "Fer à repasser",
+        "Linge de cuisine",
+        "Mixer",
+        "Presse-fruits",
+        "Couvertures en duvet"
+      ],
+      "description": "Sur 4000 m² de terrain clos avec une vue sur les Alpilles, cette maison de style mas vous propose tout le confort et le calme dont vous avez besoin. Les 3 chambres à l'étage disposent d'un lit en 160 cm et de 2 lits en 180 cm. Toutes les décorations viennent d'être refaites. La maison se situe entre les Alpilles, le Luberon et le Mont Ventoux. Elle est à 5 km de la sortie de l'autoroute d'Avignon. Noves est un village provençal très charmant.",
+      "lits": 4,
+      "images": [
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/0d83af6a-060e-4259-90ad-e9b52a0cf5e2-s7PzJXYGe559AqEqd90zyPRIwtsXHQ.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/fff42911-bf32-4cdb-87a2-b845a8466148-5J5nx024NciiD7aTgivRyfhwF8jTEd.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/eae85301-a812-47a7-8793-ad46ace002cd-361yE2XiIlNV0OFDwj8Xjz0rJZyYFt.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/6f1c6923-a01d-41b8-aa00-316265c34b57-R2W2yvNMEs3RrHb4JJ89MX3rcOU4qp.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/ede9587d-0d52-4f77-9a9b-db4d441ec5fb-dzU4LwVoUusrqHsnKT8LeDYhe9Zs1g.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/30265d30-4bf1-40f9-9da3-b894a5c92147-rCnofRGFwscKUvqua9NVKakUnq45bs.jpeg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/1f699a67-731b-4971-bde8-187adda17530-7PURI78f9Jmt4gJGV1hprW0Gdi368O.jpeg"
+      ]
+    },
+    {
+      "nom": "Maison à Noves",
+      "adresse": "85 avenue pablo picasso",
+      "ville": "Noves",
+      "code_postal": 13550,
+      "pays": "France",
+      "type": "Maison",
+      "personnes": 6,
+      "m2": 105,
+      "equipements": [
+        "Jaccuzzi",
+        "Vaisselle",
+        "Lave-linge",
+        "Four à micro-ondes",
+        "Four",
+        "Grille-pain",
+        "Bouilloire",
+        "Congélateur",
+        "Frigo",
+        "Cuisinière",
+        "Cafetière Nespresso",
+        "Aspirateur",
+        "Fer à repasser",
+        "Linge de cuisine",
+
+        "Presse-fruits",
+        "Couvertures en duvet"
+      ],
+      "description": "Ce logement se situe à Noves dans un lotissement calme, il est accolé à la pinède de Noves. Dans ce magnifique petit village provençal, idéalement situé entre Alpilles, Luberon et Mont Ventoux. Cette demeure est fraîchement rénovée, disposant de 3 chambres, toutes équipées de climatisation. De plus, elle possède un jacuzzi tourné vers la nature, qui vous fera vivre des moments de détente inoubliables. Des supermarchés, gare, restaurants, et toutes sortes de commerces se trouvent à proximité.",
+      "lits": 3,
+      "images": [
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-61_websize-BrixqdFhRHkMWhUQHV8navK2eMPwBY.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-63_websize-4B2jgGA6Wh6wSkdSCO02WOc7AsraGb.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-49_websize-ART56bEVFjiuEGFSwyItAxE9NN1F0b.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-37_websize-MdgXGvhjUdS1yLUsJlmrCN8tB9KQui.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-28_websize-eSyW69HuDqBHkvjCQAds3UJimr9FJ1.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-26_websize-LspBosUIs3dXiYrbvQBE3EG2yiLIdV.jpg",
+        "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-10_websize-p42sV9D0tdfD5rcQKqvJb8an6BHc95.jpg"
+      ]
+    }
+  ]
+}

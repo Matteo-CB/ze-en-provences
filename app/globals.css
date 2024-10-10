@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../public/font/Montserrat-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: "Garamond";
+    src: url("../public/font/EBGaramond-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: "Gothic";
+    src: url("../public/font/DidactGothic-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Kaushan";
+    src: url("../public/font/KaushanScript-Regular.ttf");
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*::selection {
+  background-color: #88b47f;
+  color: white;
+}
+
+.bg-primary {
+  @apply bg-[#88B47F];
+}
+
+.text-primary {
+  @apply text-[#88B47F];
+}
+
+.backgroundimage {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease;
+}
+
+.font-title {
+  font-family: "Kaushan" !important;
+}
+
+.bg-footer {
+  background: url("../public/villa/villa-du-rougadou-3.webp") center/cover;
+}
+.bg-footer2 {
+  background: url("../public/villa/villa-du-rougadou-11.webp") center/cover;
+}
+.bg-footer3 {
+  background: url("../public/villa/villa-du-rougadou-2.webp") center/cover;
+}
+#hamburgerInput:checked + .toggle #l3 {
+  transform: rotate(-45deg);
+  transform-origin: 10% 10%;
+}
+#hamburgerInput:checked + .toggle #l1 {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+#hamburgerInput:checked + .toggle #l2 {
+  transform: rotate(45deg);
+  transform-origin: 10% 90%;
+}
+.embla {
+  max-width: 48rem;
+  margin: auto;
+  --slide-height: 22rem;
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+.embla__slide__img {
+  display: block;
+  height: var(--slide-height);
+  width: 100%;
+  object-fit: cover;
+}
+.embla__controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-top: 0.8;
+}
+.embla__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+}
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 3rem;
+  height: 3rem;
+  z-index: 1;
+  border-radius: 50%;
+  color: var(--text-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.embla__button:disabled {
+  color: var(--detail-high-contrast);
+}
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+.embla__dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
+}
+.embla__dot {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.embla__dot:after {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 0.6rem;
+  height: 0.6rem;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  content: "";
+  @apply border border-neutral-600;
+}
+.embla__dot--selected:after {
+  @apply bg-[#88B47F];
+  box-shadow: inset 0 0 0 0.2rem var(--text-body);
+}
+.embla__slide__img {
+  user-select: none;
+}
+
+.ombre {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
