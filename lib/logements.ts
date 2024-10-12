@@ -27,8 +27,8 @@ export const logements = [
       "Couvertures en duvet",
     ],
     description:
-      "Sur 4000 m² de terrain clos avec une vue sur les Alpilles, cette maison de style mas vous propose tout le confort et le calme dont vous avez besoin. Les 3 chambres à l'étage disposent d'un lit en 160 cm et de 2 lits en 180 cm. Toutes les décorations viennent d'être refaites. La maison se situe entre les Alpilles, le Luberon et le Mont Ventoux. Elle est à 5 km de la sortie de l'autoroute d'Avignon. Noves est un village provençal très charmant.",
-    lits: 2,
+      "Sur 4000 m² de terrain clos avec une vue sur les Alpilles, cette maison de style mas vous propose tout le confort et le calme dont vous avez besoin. Les 3 chambres à l'étage disposent d'un lit en 160 cm et de 2 lits en 180 cm. Au Rez de chaussée vous trouverez une chambre avec un lit en 180 également. Toutes les décorations viennent d'être refaites. La maison se situe entre les Alpilles, le Luberon et le Mont Ventoux. Elle est à 5 km de la sortie de l'autoroute d'Avignon. Noves est un village provençal très charmant.",
+    lits: 4,
     images: [
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-61_websize-BrixqdFhRHkMWhUQHV8navK2eMPwBY.jpg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/villa%20du%20rougadou-49_websize-ART56bEVFjiuEGFSwyItAxE9NN1F0b.jpg",
