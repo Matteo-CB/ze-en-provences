@@ -81,7 +81,6 @@ export const logements = [
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_2-xtIgxgXYE93Xc4sCwSawjlVWOmTOSe.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_3-EmcwrrNMbUqUzdVsVa5sFRjDznUMFk.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_4-G33V1uv2Q1wBFzqHXLTILLh471Jsfy.jpeg",
-      "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_4-nl6J2woOCpD7W269EkgcFFWqVKdZh5.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_5-L3eRtoeyZDcjbfYkNw8aRPii1WWQCf.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_5-ysPnVpScYcXBcyVjTfU3u12f8PdnQI.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_6-i7MkqXQTQH9fmi50vMZKLosz277oKf.jpeg",
