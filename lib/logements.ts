@@ -79,7 +79,6 @@ export const logements = [
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_1-U594Tz1h1upVjZyHkckypmuoJnr77Q.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_2-oXR0Wkt3KHLDYTj4ErNdyE2HuqYN1B.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_2-xtIgxgXYE93Xc4sCwSawjlVWOmTOSe.jpeg",
-      "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_3-nIhA235k7CJn530pfEMqAnhNk2LXv7.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_3-EmcwrrNMbUqUzdVsVa5sFRjDznUMFk.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_4-G33V1uv2Q1wBFzqHXLTILLh471Jsfy.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_4-nl6J2woOCpD7W269EkgcFFWqVKdZh5.jpeg",
@@ -90,7 +89,6 @@ export const logements = [
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_7-aXV59XfPnqHj4gTomY6Bc738sRVx1P.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_7-oVjafri8kNFYodYrqFDXNSYB7kl1AV.jpeg",
       "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_8-RVnFEOHNes0A5dgMS7JtPSARuJ5vNm.jpeg",
-      "https://svwg0rrsfacftscb.public.blob.vercel-storage.com/photo_9-fXkZfjbdEQMCSqFsO57eNvkanf5xh7.jpeg",
     ],
     airbnb:
       "https://www.airbnb.fr/rooms/1194082735398502874?source_impression_id=p3_1726741492_P3PJoO-OkUFLh_GS",
