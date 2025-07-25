@@ -42,7 +42,7 @@ const HomeLogement = ({ villa }: any) => {
           {villa.description}{" "}
           <Link
             className="underline text-[#719f67]"
-            href={villa.airbnb}
+            href={"/reservation"}
             target="_blank"
           >
             En savoir plus
@@ -55,9 +55,7 @@ const HomeLogement = ({ villa }: any) => {
           asChild
           className="rounded text-neutral-50 hover:scale-105 hover:bg-[#719f67] transition-all"
         >
-          <Link href={villa.airbnb} target="_blank">
-            Réserver le logement
-          </Link>
+          <Link href={"/reservation"}>Réserver le logement</Link>
         </Button>
         <Button
           asChild

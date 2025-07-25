@@ -19,12 +19,17 @@
     font-family: "Kaushan";
     src: url("../public/font/KaushanScript-Regular.ttf");
   }
+  .theme {
+    --animate-meteor: meteor 5s linear infinite;
+    --animate-shine: shine var(--duration) infinite linear;
+  }
 }
 html {
   scroll-behavior: smooth;
 }
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
 *::selection {
@@ -187,4 +192,37 @@ html {
 
 .ombre {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@theme inline {
+  @keyframes meteor {
+    0% {
+      transform: rotate(var(--angle)) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(var(--angle)) translateX(-500px);
+      opacity: 0;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
 }

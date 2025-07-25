@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import Head from "next/head";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,6 +21,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning={true}>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-R7TS39TM3G" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R7TS39TM3G');
+        `}
+      </Script>
       <body
         className={inter.className + " bg-gray-50"}
         suppressHydrationWarning={true}
@@ -26,6 +39,8 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+
+      <GoogleTagManager gtmId="GTM-NJLWDH54" />
     </html>
   );
 }

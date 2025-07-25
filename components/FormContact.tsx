@@ -49,7 +49,7 @@ function FormContact(): any {
   };
 
   return (
-    <div className="md:w-[80%] w-full text-center md:m-auto mb-10">
+    <div className="md:w-[80%] w-full max-w-[600px] text-center md:m-auto mb-10">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col justify-center items-start  gap-2 px-2 pb-8 max-w-[700px] md:m-auto"
